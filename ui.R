@@ -16,7 +16,7 @@ ui <- fluidPage(
     ),
     HTML(
       "<footer>
-         <a href='https://riate.cnrs.fr'><img src='logo_footer.svg' height='25px'></a>
+         <a href='https://github.com/rCarto/gisal_dekk_bi/'><img src='logo_footer.svg' height='25px'></a>
        </footer>"
     )
   )
