@@ -6,7 +6,7 @@ ui <- fluidPage(
   fluidRow(
     column(
       width = 12,
-      h4("Guess the city location"),
+      h4("Devinez la position de la ville !"),
       htmlOutput("ville"),
       htmlOutput("x")
     ),

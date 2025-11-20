@@ -1,5 +1,4 @@
 server <- function(input, output, session) {
-  
   # data init
   ncity=20
   vv <- sample(1:nrow(dataa), nrow(dataa), replace = FALSE)
@@ -69,8 +68,8 @@ server <- function(input, output, session) {
       output$x <- renderText({ 
         showModal(
           modalDialog(
-            footer = actionButton("rst", "New Game", icon = icon("globe") ),
-            title = HTML(paste0("<b>Total distance: ", rv$tot," km !</b>")),
+            footer = actionButton("rst", "Nouvelle partie!", icon = icon("globe") ),
+            title = HTML(paste0("<b>Distance totale : ", rv$tot," km !</b>")),
             size = "s", 
             easyClose = FALSE,
             fade = FALSE,
